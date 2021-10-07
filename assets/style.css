@@ -1,3 +1,14 @@
+:root {
+    --primary-color: rgb(91, 95, 105);
+    --secondary-color: rgb(177, 40, 219);
+}
+
+
+
+* {
+    color: var(--primary-color);
+}
+
 header {
     padding: 20px 35px;
     display: flex;
@@ -5,11 +16,12 @@ header {
     flex-wrap: wrap;
     position: sticky;
     top: 0;
+    background-color: var(--secondary-color);
 }
 header h1 {
     font-weight: bold;
     margin: 0;
-    font-size: 40px;
+    font-size: 45px;
 }
 header nav ul {
     display: flex;
@@ -21,5 +33,5 @@ header nav ul {
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-size: 30px;
   }
